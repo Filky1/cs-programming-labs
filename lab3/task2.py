@@ -1,6 +1,7 @@
 fio=str(input("Введите ФИО:"))
-surname=fio[0:fio.find(' ')]
-name=fio[fio.find(' ')+1:fio.rfind(' ')]
-middlename=fio[fio.rfind(' ')+1:]
+fio=fio.split()
+surname=fio[0]
 surname=surname[0].upper()+surname[1:].lower()
-print(surname,name[0].upper()+'.',middlename[0].upper()+'.')
+name=fio[1][0].upper()
+otchestvo=fio[2][0].upper()
+print(surname,name+'.',otchestvo+'.')
