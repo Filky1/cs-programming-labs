@@ -1,0 +1,6 @@
+info=str(input('Введите информацию: '))
+info=info.split(';')
+print(f'Поезд: {info[0]}')
+print(f'Маршрут: {info[1]} - {info[2]}')
+print(f'Отправление: {info[3]}')
+print(f'Цена: {float(info[4]):.2f}')
