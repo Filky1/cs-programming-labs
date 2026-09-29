@@ -1,0 +1,6 @@
+info=str(input('Введите данные: '))
+print('Длинна:',(len(info)))
+print('Только буквы:',(info.isalpha()))
+print('Только цифры:',(info.isdigit()))
+print('Буквы или цифры:',(info.isalnum()))
+print('Содержит дефиз:',('-' in info))
