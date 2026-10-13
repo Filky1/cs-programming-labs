@@ -1,5 +1,5 @@
-num1=float(input("Введите число:"))
-num2=float(input("Введите число:"))
+num1=float(input(""))
+num2=float(input(""))
 if num1>num2: print("Охлаждение")
 if num1<num2: print("Нагрев")
 if num1==num2: print("Выключен")

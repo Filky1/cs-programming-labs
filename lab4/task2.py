@@ -1,5 +1,5 @@
-price=float(input("Введите стоимость билета:"))
-year=int(input("Введите возраст:"))
+price=float(input(""))
+year=int(input(""))
 if price<0 or 0>=year>=120: print('Ошибка')
 elif 0<=year<=5: print('Стоимость: 0.00 руб')
 elif 6<=year<=17: print(f'Стоимость: {price*0.5:.2f} руб')
