@@ -1,0 +1,8 @@
+x=int(input())
+y=int(input())
+z=int(input())
+if x<=0 or y<=0 or z<=0: print("Треугольник не существует")
+elif (x+y)<z or (z+y)<x or (x+z)<y: print("Треугольник не существует")
+elif x==y==z: print("Равносторонний")
+elif x==y or x==z or y==z: print("Равнобедренный")
+else: print("Разносторонний")
